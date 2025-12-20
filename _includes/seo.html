@@ -25,14 +25,14 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 <meta name="description" content="{{ seo_description }}">
-<meta name="author" content="Kaden Grace">
+<meta name="author" content="{{ site.author.name }}">
 
 {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}">
 {% elsif page.tags %}
   <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% else %}
-  <meta name="keywords" content="kaden grace, kaden grace economics, grace economics, economics phd, public finance, health economics, behavioral economics, university of tennessee economics">
+  <meta name="keywords" content="Licensed Professional Counselor, LPC, therapist, counseling, therapy, mental health services, anxiety therapy, depression counseling, couples therapy, trauma therapy, PTSD treatment, grief counseling, Texas therapist, virtual therapy">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -107,39 +107,78 @@
   </script>
 {% endif %}
 
-<!-- Enhanced Academic/Researcher Schema.org structured data -->
+<!-- Enhanced Medical Professional Schema.org structured data for Licensed Professional Counselor -->
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Kaden Grace",
-  "givenName": "Kaden",
-  "familyName": "Grace",
-  "url": "https://kadengrace.github.io",
-  "image": "https://kadengrace.github.io/images/Headshot.jpg",
-  "jobTitle": "Economics PhD Candidate",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "University of Tennessee - Knoxville",
-    "url": "https://www.utk.edu"
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Dre Grace-Hannon",
+  "givenName": "Andrea",
+  "additionalName": "Dre",
+  "familyName": "Grace-Hannon",
+  "honorificSuffix": ["M.Ed.", "LPC"],
+  "url": "{{ seo_url }}",
+  "image": "{{ seo_url }}/images/Headshot.jpg",
+  "jobTitle": "Licensed Professional Counselor",
+  "description": "Licensed Professional Counselor with over 30 years of experience specializing in therapy for teens, adults, and couples. Providing compassionate mental health services for anxiety, depression, trauma, PTSD, relationship issues, and life transitions.",
+  "email": "dregraceLPC@gmail.com",
+  "telephone": "+1-806-414-5557",
+  "areaServed": {
+    "@type": "State",
+    "name": "Texas"
   },
-  "alumniOf": [
+  "availableService": [
     {
-      "@type": "Organization",
-      "name": "University of Mississippi"
+      "@type": "MedicalTherapy",
+      "name": "Individual Therapy",
+      "description": "Individual counseling for anxiety, depression, trauma, PTSD, grief, and life transitions"
     },
     {
-      "@type": "Organization",
-      "name": "University of Tennessee - Knoxville"
+      "@type": "MedicalTherapy",
+      "name": "Couples Therapy",
+      "description": "Couples counseling to strengthen relationships and improve communication"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Teen Therapy",
+      "description": "Adolescent counseling for teens navigating life challenges"
     }
   ],
-  "knowsAbout": ["Public Finance", "Health Economics", "Behavioral Economics", "Experimental Economics", "Applied Microeconomics"],
-  "description": "Economics PhD candidate specializing in public finance, health economics, and behavioral economics at the University of Tennessee - Knoxville",
-  "email": "kaden.grace@utk.edu",
-  "sameAs": [
-    "https://www.linkedin.com/in/kaden-grace",
-    "https://kadengrace.github.io"
-  ]
+  "medicalSpecialty": [
+    "Anxiety Disorders",
+    "Depression",
+    "Trauma and PTSD",
+    "Relationship Issues",
+    "Grief and Loss"
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Texas"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "West Texas A&M University"
+    }
+  ],
+  "knowsAbout": [
+    "Cognitive Behavioral Therapy",
+    "Interpersonal Psychotherapy",
+    "Solution Focused Brief Therapy",
+    "Trauma Therapy",
+    "Couples Counseling",
+    "Anxiety Treatment",
+    "Depression Treatment",
+    "PTSD Treatment"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Professional License",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Texas State Board of Examiners of Professional Counselors"
+    }
+  }
 }
 </script>
 
@@ -165,8 +204,8 @@
   <meta property="og:type" content="article">
 {% else %}
   <meta property="og:type" content="profile">
-  <meta property="profile:first_name" content="Kaden">
-  <meta property="profile:last_name" content="Grace">
+  <meta property="profile:first_name" content="Andrea">
+  <meta property="profile:last_name" content="Grace-Hannon">
 {% endif %}
 {% if page.excerpt %}
   <meta property="og:description" name="description" content="{{ seo_description }}">
