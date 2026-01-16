@@ -13,7 +13,7 @@ title                    : "Dre Grace-Hannon, M.Ed., LPC"
 title_separator          : "-"
 name                     : &name "Dre Grace-Hannon"
 description              : &description "Dre Grace-Hannon is a Licensed Professional Counselor (LPC) specializing in therapy for teens, adults, and couples. Providing compassionate, professional mental health services."
-url                      : https://dregracehannon.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://dregrace.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dregracehannon.github.io"
@@ -29,6 +29,7 @@ author:
   bio              : "Licensed Professional Counselor specializing in anxiety, depression, trauma, and couples therapy"
   location         : "Texas"
   employer         : # Employer if desired
+  phone            : "(806) 414-5557"
   uri              : # URL
   email            : "dregraceLPC@gmail.com" 
 
@@ -112,7 +113,8 @@ social:
   type                   : "Person" # Person or Organization (defaults to Person)
   name                   : "Dre Grace-Hannon" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://dregracehannon.github.io"
+    - "https://dregrace.com"
+    - "https://www.headway.co/providers/dre-grace-hannon"
 
 
 # Analytics

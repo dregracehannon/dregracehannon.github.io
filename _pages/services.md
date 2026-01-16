@@ -1,76 +1,159 @@
 ---
-layout: archive
-title: "Therapy Services & Counseling Specializations - Dre Grace-Hannon, LPC"
+layout: single
+title: "My Services - Therapy & Counseling - Dre Grace-Hannon, LPC"
 description: "Licensed Professional Counselor specializing in anxiety therapy, depression counseling, trauma treatment, PTSD therapy, couples counseling, grief therapy, and mental health services for teens, adults, and couples in Texas. Virtual therapy available."
 keywords: "therapy services, counseling specializations, anxiety therapy, depression counseling, trauma therapy, PTSD treatment, couples therapy, teen counseling, grief counseling, CBT therapy, virtual therapy Texas"
 permalink: /services/
 author_profile: true
+header:
+  overlay_image: https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=1600&q=80
+  overlay_filter: 0.4
+  caption: "Compassionate, evidence-based therapy services"
 ---
 
-## Professional Mental Health Services for All Ages
+<div class="services-hero">
+  <h1>How I Can Help</h1>
+  <p class="lead">Compassionate, evidence-based therapy services tailored to your unique needs and circumstances</p>
+</div>
 
-As a Licensed Professional Counselor in Texas, I provide compassionate, evidence-based therapy services for:
+<div class="services-intro">
+  <p>Whether you're struggling with anxiety, depression, trauma, relationship challenges, or navigating life's transitions, I provide a safe, supportive space for healing and growth. Explore my specialized services below to find the support that's right for you.</p>
+</div>
 
-- **Teens and Adolescents** - Specialized teen counseling for anxiety, depression, and navigating the unique challenges of adolescence
-- **Adults** - Individual therapy for working through life's complexities, mental health challenges, and major transitions
-- **Couples** - Couples therapy and counseling to strengthen relationships and improve communication
-- **Seniors** - Compassionate counseling addressing later-life challenges, grief, and life adjustments
+<div class="services-section">
+  <h2>Who I Serve</h2>
 
-## Therapy Specializations and Treatment Areas
+  <div class="service-cards">
+    <a href="/services/teens/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Teens and Adolescents</h3>
+        <p>Specialized teen counseling for anxiety, depression, and navigating the unique challenges of adolescence</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-### Core Mental Health Specialties
+    <a href="/services/adults/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Adults</h3>
+        <p>Individual therapy for working through life's complexities, mental health challenges, and major transitions</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-**Anxiety Therapy & Stress Management**
-Whether you're experiencing generalized anxiety disorder, panic attacks, social anxiety, or overwhelming stress from life's demands, I provide effective anxiety therapy using evidence-based approaches like Cognitive Behavioral Therapy (CBT) to help you develop coping strategies and find lasting relief.
+    <a href="/services/couples/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Couples</h3>
+        <p>Couples therapy and counseling to strengthen relationships and improve communication</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-**Depression Counseling & Treatment**
-Together we'll work to understand the roots of your depression and develop a personalized treatment plan toward renewed energy, hope, and emotional well-being. My depression counseling integrates proven therapeutic approaches tailored to your specific needs.
+    <a href="/services/seniors/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1521791055366-0d553872125f?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Seniors</h3>
+        <p>Compassionate counseling addressing later-life challenges, grief, and life adjustments</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
+  </div>
+</div>
 
-**Trauma Therapy & PTSD Treatment**
-With extensive experience in trauma-informed care, I provide a safe, supportive space for healing from past traumatic experiences that continue to impact your present. My PTSD treatment helps you process trauma, reduce symptoms, and reclaim your life.
+<div class="services-section">
+  <h2>Specializations</h2>
 
-**Couples Therapy & Relationship Counseling**
-I offer comprehensive couples therapy and premarital counseling to help partners strengthen their emotional connection, navigate conflict constructively, improve communication, and build a foundation for lasting, healthy relationships.
+  <div class="service-cards">
+    <a href="/services/anxiety/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Anxiety Therapy</h3>
+        <p>Effective treatment for generalized anxiety, panic attacks, social anxiety, and overwhelming stress</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-**Grief Counseling & Loss Support**
-Whether facing the loss of a loved one, relationship, health, or other significant life change, I provide compassionate grief counseling to support you through the grieving process and help you find meaning and hope again.
+    <a href="/services/depression/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Depression Counseling</h3>
+        <p>Personalized treatment plans toward renewed energy, hope, and emotional well-being</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-### Additional Areas of Focus
+    <a href="/services/trauma/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Trauma & PTSD Treatment</h3>
+        <p>Safe, supportive space for healing from traumatic experiences with trauma-informed care</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-- **Life Transitions** - Divorce, career changes, relocation, retirement, and other major life shifts
-- **Family Issues** - Addressing family dynamics, conflicts, and communication patterns
-- **Maternal Mental Health** - Pregnancy, postpartum challenges, and parenting concerns
-- **Chronic Health Conditions** - Coping with ongoing physical health challenges
-- **End of Life Care** - Support for those facing terminal illness or caring for dying loved ones
-- **Identity Issues** - Exploring questions of self, purpose, and authenticity
-- **Men's Issues** - Addressing concerns specific to men's mental health
-- **Women's Issues** - Supporting women through unique life experiences and challenges
+    <a href="/services/couples-therapy/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1545893835-abaa50cbe628?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Couples Therapy</h3>
+        <p>Strengthen emotional connection, navigate conflict, and build lasting, healthy relationships</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
 
-## Evidence-Based Therapeutic Approaches
+    <a href="/services/grief/" class="service-card">
+      <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1484402628941-0bb40fc029e7?w=600&q=80');"></div>
+      <div class="service-card-content">
+        <h3>Grief Counseling</h3>
+        <p>Compassionate support through loss and the grieving process to find meaning and hope</p>
+        <span class="service-card-link">Learn More →</span>
+      </div>
+    </a>
+  </div>
+</div>
 
-I tailor my counseling approach to your unique needs, drawing from proven, evidence-based therapy methods including:
+<div class="services-approach">
+  <h2>My Approach</h2>
+  <p>My counseling style is warm, solution-oriented, and empowering. I draw from evidence-based methods including <strong>Cognitive Behavioral Therapy (CBT)</strong>, <strong>Interpersonal Psychotherapy (IPT)</strong>, <strong>Solution Focused Brief Therapy (SFBT)</strong>, and <strong>Trauma-Informed Care</strong>—tailoring each approach to your unique needs and mental health goals.</p>
+</div>
 
-- **Cognitive Behavioral Therapy (CBT)** - Highly effective for anxiety and depression treatment, CBT helps identify and change unhelpful thought patterns and behaviors
-- **Interpersonal Psychotherapy (IPT)** - Focused on improving relationships, communication skills, and resolving interpersonal conflicts
-- **Solution Focused Brief Therapy (SFBT)** - Goal-oriented therapy that builds on your strengths to create positive, lasting change
-- **Trauma-Informed Care** - Safe, supportive therapeutic approach for healing from trauma and PTSD
-- **Relational Therapy** - Using our therapeutic relationship as a foundation for personal growth and healing
+<div class="services-details">
+  <h2>Virtual Therapy in Texas</h2>
+  <div class="details-grid">
+    <div class="detail-item">
+      <i class="fas fa-video"></i>
+      <h3>HIPAA-Compliant</h3>
+      <p>Secure video sessions</p>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-clock"></i>
+      <h3>60-Minute Sessions</h3>
+      <p>Full therapeutic hour</p>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-calendar-check"></i>
+      <h3>Flexible Scheduling</h3>
+      <p>Times that work for you</p>
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Throughout Texas</h3>
+      <p>From anywhere in the state</p>
+    </div>
+  </div>
+</div>
 
-My counseling style is warm, solution-oriented, and empowering. I believe in your capacity for change, growth, and emotional healing.
+<div class="final-cta">
+  <h2>Ready to Begin Your Journey?</h2>
+  <p>Take the first step toward healing and growth. I'm here to support you.</p>
 
-## Virtual Therapy Sessions in Texas
+  <div class="cta-buttons">
+    <a href="https://bit.ly/makeapptDGH" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">Make an Appointment</a>
+    <a href="https://bit.ly/makeapptDGH" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">Check Your Insurance</a>
+  </div>
 
-- **Format:** Secure, HIPAA-compliant virtual therapy sessions via video platform
-- **Duration:** 60-minute therapy sessions
-- **Location:** Providing online counseling services throughout Texas
-- **Availability:** Flexible scheduling to accommodate your needs
-
-## Schedule Your First Therapy Session
-
-If you're ready to begin your journey toward mental health and healing, I'd be honored to work with you. Take the first step today:
-
-- [Schedule an appointment online](https://bit.ly/makeapptDGH)
-- Call [(806) 414-5557](tel:8064145557)
-- Email [dregraceLPC@gmail.com](mailto:dregraceLPC@gmail.com)
-
-Learn more about [insurance and payment options](/insurance/) or visit my [contact page](/contact/) for additional information about starting therapy.
+  <div class="contact-info">
+    <p><a href="mailto:dregraceLPC@gmail.com">dregraceLPC@gmail.com</a> | <a href="tel:8064145557">(806) 414-5557</a></p>
+  </div>
+</div>

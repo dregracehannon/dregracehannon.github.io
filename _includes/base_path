@@ -1,5 +1,4 @@
-{% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
-{% else %}
-  {% assign base_path = site.github.url %}
-{% endif %}
+{% comment %}
+  Use relative paths for custom domain to avoid mixed content and CORS issues
+{% endcomment %}
+{% assign base_path = site.baseurl | default: "" %}

@@ -13,7 +13,25 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.submenu %}
+              <li class="masthead__menu-item masthead__menu-item--dropdown">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }} <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                  {% for group in link.submenu %}
+                    <div class="dropdown-group">
+                      <h4 class="dropdown-group-title">{{ group.title }}</h4>
+                      <ul class="dropdown-items">
+                        {% for item in group.items %}
+                          <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endfor %}
+                </div>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>

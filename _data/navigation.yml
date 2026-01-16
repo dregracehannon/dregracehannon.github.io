@@ -5,14 +5,37 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Home"
+  - title: "About Me"
     url: /
 
-  - title: "Services"
+  - title: "My Services"
     url: /services/
+    submenu:
+      - title: "Who I Serve"
+        items:
+          - title: "Teens and Adolescents"
+            url: /services/teens/
+          - title: "Adults"
+            url: /services/adults/
+          - title: "Couples"
+            url: /services/couples/
+          - title: "Seniors"
+            url: /services/seniors/
+      - title: "Specializations"
+        items:
+          - title: "Anxiety Therapy"
+            url: /services/anxiety/
+          - title: "Depression Counseling"
+            url: /services/depression/
+          - title: "Trauma & PTSD Treatment"
+            url: /services/trauma/
+          - title: "Couples Therapy"
+            url: /services/couples-therapy/
+          - title: "Grief Counseling"
+            url: /services/grief/
+
+  - title: "Make an Appointment"
+    url: https://bit.ly/makeapptDGH
 
   - title: "Insurance & Fees"
-    url: /insurance/
-
-  - title: "Contact"
-    url: /contact/
+    url: https://bit.ly/makeapptDGH

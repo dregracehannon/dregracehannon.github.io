@@ -21,7 +21,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">LinkedIn</button>
+    <a href="https://bit.ly/makeapptDGH" target="_blank" rel="noopener noreferrer" class="btn btn--inverse" style="display: block; margin-bottom: 0.5rem; font-size: 0.8rem; padding: 0.5rem 1rem;">Make an Appointment</a>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
@@ -29,6 +29,9 @@
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+      {% endif %}
+      {% if author.phone %}
+        <li><a href="tel:{{ author.phone }}"><i class="fas fa-fw fa-phone icon-pad-right" aria-hidden="true"></i>{{ author.phone }}</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
