@@ -8,13 +8,13 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1600&q=80
+  overlay_image: https://images.unsplash.com/photo-1724222909481-d972ca7b2398?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   overlay_filter: 0.4
   caption: "Compassionate therapy for healing and growth"
 ---
 
 <div class="about-hero">
-  <h1>Welcome. I'm Dre Grace-Hannon.</h1>
+  <h1>Welcome.<br />I'm Dre Grace-Hannon.</h1>
   <p class="lead">Licensed Professional Counselor with over 30 years of experience providing compassionate mental health services to individuals, couples, and families in Texas.</p>
 
   <div class="cta-buttons">
