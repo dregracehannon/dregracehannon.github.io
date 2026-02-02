@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me - Dre Grace-Hannon, M.Ed., LPC"
+title: "Andrea (Dre) Grace-Hannon, M.Ed., LPC"
 description: "Licensed Professional Counselor with 30+ years experience in Texas. Specializing in anxiety therapy, depression counseling, trauma treatment, PTSD, couples therapy, and grief counseling for teens, adults, and couples. Virtual therapy available."
 keywords: "Licensed Professional Counselor, LPC, therapist Texas, anxiety therapy, depression counseling, trauma therapy, PTSD treatment, couples therapy, grief counseling, virtual therapy, mental health counselor"
 author_profile: true
@@ -14,7 +14,7 @@ header:
 ---
 
 <div class="about-hero">
-  <h1>Welcome.<br />I'm Dre Grace-Hannon.</h1>
+  <h1>Welcome.<br />I'm Andrea (Dre) Grace-Hannon.</h1>
   <p class="lead">Licensed Professional Counselor with over 30 years of experience providing compassionate mental health services to individuals, couples, and families in Texas.</p>
 
   <div class="cta-buttons">
